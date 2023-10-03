@@ -7,8 +7,9 @@
 /*
  * full SDSI/SPKI S-expression reader
  *
- * Copyright © 2008 Vita Nuova Holdings Limited
+ * Copyright © 2008 Charles Forsyth (charles.forsyth@gmail.com)
  * based on Limbo version Copyright © 2003-2004 Vita Nuova Holdings Limited
+ * which was and is also under the MIT licence.
  */
 
 enum{
