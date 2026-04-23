@@ -29,4 +29,4 @@ Copy **sexp.h** to some suitable include directory.
 
 * **mk tests**
   will make a test program for $cputype and run it. There should be no mismatches noted by **cmp**.
-* Report problems through the issue system at [https://bitbucket.org/forsyth/libsexp](https://bitbucket.org/forsyth/libsexp)
+* Report problems through the issue system at [https://github.com/forsyth/libsexp](https://github.com/forsyth/libsexp)
