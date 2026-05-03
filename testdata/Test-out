@@ -1,0 +1,52 @@
+(a b c) :: ''		{KDE6YTE6YjE6Yyk=}
+	-> (a b c)
+	equal
+(a (b c) ((d e) (e f))) :: ''		{KDE6YSgxOmIxOmMpKCgxOmQxOmUpKDE6ZTE6ZikpKQ==}
+	-> (a (b c) ((d e) (e f)))
+	equal
+("don\"t do ) that") :: ''		{KDE1OmRvbiJ0IGRvICkgdGhhdCk=}
+	-> ("don\"t do ) that")
+	equal
+((a b) (c d)) :: ''		{KCgxOmExOmIpKDE6YzE6ZCkp}
+	-> ((a b) (c d))
+	equal
+("don't do ) that") :: ''		{KDE1OmRvbid0IGRvICkgdGhhdCk=}
+	-> ("don't do ) that")
+	equal
+(hello symbol) :: ''		{KDU6aGVsbG82OnN5bWJvbCk=}
+	-> (hello symbol)
+	equal
+("don't do ) that") :: ''		{KDE1OmRvbid0IGRvICkgdGhhdCk=}
+	-> ("don't do ) that")
+	equal
+(hello "don't do that") :: ''		{KDU6aGVsbG8xMzpkb24ndCBkbyB0aGF0KQ==}
+	-> (hello "don't do that")
+	equal
+(hello "don't touch that cat (it bites)" (a b (c d))) :: ''		{KDU6aGVsbG8zMTpkb24ndCB0b3VjaCB0aGF0IGNhdCAoaXQgYml0ZXMpKDE6YTE6YigxOmMxOmQpKSk=}
+	-> (hello "don't touch that cat (it bites)" (a b (c d)))
+	equal
+(echo "") :: ''		{KDQ6ZWNobzA6KQ==}
+	-> (echo "")
+	equal
+(echo "hello sailor") :: ''		{KDQ6ZWNobzEyOmhlbGxvIHNhaWxvcik=}
+	-> (echo "hello sailor")
+	equal
+() :: ''		{KCk=}
+	-> ()
+	equal
+(a ()) :: ''		{KDE6YSgpKQ==}
+	-> (a ())
+	equal
+(a ("hello there")) :: ''		{KDE6YSgxMTpoZWxsbyB0aGVyZSkp}
+	-> (a ("hello there"))
+	equal
+(ipconfig (ipaddr "1.3.5.6") (ipgw "3.4.5.7") (ipforwarding "0")) :: ''		{KDg6aXBjb25maWcoNjppcGFkZHI3OjEuMy41LjYpKDQ6aXBndzc6My40LjUuNykoMTI6aXBmb3J3YXJkaW5nMTowKSk=}
+	-> (ipconfig (ipaddr "1.3.5.6") (ipgw "3.4.5.7") (ipforwarding "0"))
+	equal
+(a (|FhcY|)) :: ''		{KDE6YSg1OhYXGBkgKSk=}
+	-> (a (|FhcY|))
+	equal
+(a (#1617#)) :: ''		{KDE6YSgyOhYXKSk=}
+	-> (a (#1617#))
+	equal
+-> (a (b (c) "239329") ())

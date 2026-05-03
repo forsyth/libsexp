@@ -14,4 +14,4 @@ $O.stest:	stest.$O $LIB
 	$LD -o $target $prereq
 
 tests:V:	$O.stest
-	$O.stest <Tests | cmp /fd/0 Test-out
+	$O.stest <testdata/Tests | cmp /fd/0 testdata/Test-out
