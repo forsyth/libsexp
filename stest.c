@@ -2,7 +2,7 @@
 #include <libc.h>
 #include <bio.h>
 #include <String.h>
-#include "sexprs.h"
+#include "sexp.h"
 
 Biobuf	bin;
 
